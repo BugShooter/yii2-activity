@@ -1,0 +1,27 @@
+{
+    "name": "yiiBoy/yii2-activity",
+    "version":"1.0",
+    "description": "Yii2 user activity logger",
+    "licenses": [{"type": "MIT"}],
+    "type": "yii2-extension",
+    "keywords": ["User", "Activity", "Logger", "Yii2", "extension"],
+    "homepage": "https://github.com/yiiBoy/yii2-activity",
+    "support": {
+        "issues": "https://github.com/yiiBoy/yii2-activity/issues?state=open",
+        "source": "https://github.com/yiiBoy/yii2-activity"
+    },
+    "authors": [
+        {
+            "name": "yiiBoy (Alexey Muravyov)",
+            "email": "muravyov.alexey@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yiiBoy\\activity\\": ""
+        }
+    }
+}
